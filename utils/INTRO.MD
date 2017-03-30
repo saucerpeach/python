@@ -9,7 +9,7 @@ count_success = 0;count_fail = 0
 
 example:  
 test = pann_Counter()  
-\#声明一个counter  
+\#声明一个counter实例
 test.increase_1("count_success ")
 test.increase_1("count_success ")
 test.increase_1("count_success ")
