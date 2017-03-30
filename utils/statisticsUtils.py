@@ -1,13 +1,13 @@
 # -*- coding: UTF-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 # ******************************************************
 # Author       : 潘涛
 # Last modified: 2017-03-30
 # Email        : saturnpeach@163.com
 # Description  :
 # ******************************************************
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 
 class pann_Counter(object):
