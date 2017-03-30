@@ -6,10 +6,10 @@ Reason:
 <pre><code>
 count_success = 0
 count_fail = 0
-\# 在相应的代码处添加 ++ 操作
-\*\*\*
+# 在相应的代码处添加 ++ 操作
+***
 count_success += 1
-\*\*\*
+***
 count_fail += 1
 </code></pre>
 呃，略有不便~So~
@@ -24,6 +24,6 @@ test.increase_1("count_fail")
 print test.toString()           #格式化输出统计结果  
 
 输出:
-\>count_fail:	1
-\>count_success:	3
+>count_fail:	1
+>count_success:	3
 </code></pre>
