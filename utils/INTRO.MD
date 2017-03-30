@@ -10,12 +10,12 @@ count_success = 0;count_fail = 0
 example:  
 test = pann_Counter()  
 \#声明一个counter  
-test.increase_1("True")  
-test.increase_1("True")  
-test.increase_1("True")  
-test.increase_1("False")  
+test.increase_1("count_success ")
+test.increase_1("count_success ")
+test.increase_1("count_success ")
+test.increase_1("count_fail")
 print test.toString()  
 \#格式化输出统计结果  
 输出  
-\>False:	1  
-\>True:	3
+\>count_fail:	1
+\>count_success:	3
